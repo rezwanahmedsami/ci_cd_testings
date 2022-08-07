@@ -1,0 +1,14 @@
+{
+  "name": "testings",
+  "version": "1.0.0",
+  "description": "this is just for testing and ci/cd test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "rezwan ahmod sami",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
