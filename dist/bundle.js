@@ -1,0 +1,1 @@
+(()=>{function n(n,i){return`this is my name: ${n+i}`}n(3,5),n(6,5),n(37,5),n(38,5),n(35,5)})();
