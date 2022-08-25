@@ -1,0 +1,10 @@
+<VirtualHost 139.99.131.146:80>
+    ServerName www.nearme.co.uk                 
+    ServerAlias nearme.co.uk 
+    #DocumentRoot /var/www/your_domain/html
+    #ErrorLog /var/www/your_domain/log/error.log
+    #CustomLog /var/www/your_domain/log/requests.log combined
+    ProxyPreserveHost On
+    ProxyPass /kibana-dashboard http://139.99.131.146:5061
+    ProxyPassReverse /kibana-dashboard http://139.99.131.146:5061
+</VirtualHost>
